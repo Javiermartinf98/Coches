@@ -7,7 +7,9 @@ Este proyecto consta de una Clase Padre que es Vehiculo, la cual tiene los sigui
 * **potencia**
 
 > Constructor vacio y por defecto
+
 > Getter y Setters
+
 > ToString
 
 A su vez crearemos una Interface a la que llamaremos Conducible, en esta interface
@@ -25,3 +27,28 @@ Los atributos de la Clase Hija unicamente sera:
 * **Isarrancar** > Para cambiar el estado segun el coche este encendido o parado
 
 Ya que hereda los atributos del padre.
+
+> Constructor vacio y por defecto
+
+> Getter y Setters
+
+> ToString
+
+Implementamos los metodos de la Interfaz Conducible 
+
+Creamos además la clase Camion, la cual tambien sera hija de la clase Vehiculo(Padre) , e implementara tambien la interface Conducible.
+Los atributos de dicha clase son: 
+* **List<> tacometro** > Array que guarda las velocidades del camion
+* **Isarrancar** > Para cambiar el estado segun el coche este encendido o parado
+
+Ya que hereda los atributos del padre.
+
+> Constructor vacio y por defecto
+
+> Getter y Setters
+
+> ToString
+
+Implementamos los metodos de la Interfaz Conducible 
+
+Por ultimo se crea la última clase Principal, donde se llamara a las clases y metodos
